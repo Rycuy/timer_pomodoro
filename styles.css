@@ -1,0 +1,17 @@
+button{
+    margin: 0px;
+    padding: 110px;
+}h1{
+    text-align: center;
+}
+h2{
+    text-decoration: double;
+}
+div{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: blue;
+}

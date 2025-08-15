@@ -1,30 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Pomodoro Timer</title>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Pomodoro Timer</h1>
-            <h2>Yuk kita belajar pomodoro , agar tidak jenuh</h2>
-            <h1>tes</h1>
-        </header>
-        <main>
-            <div class="waktu">
-                <span class="digit" id="jam">00</span>
-                <span class="digit" id="menit">00</span>
-                <span class="digit" id="detik">00</span>
-            </div>
-            <div class="tombol">
-                <button id="mulai">Mulai</button>
-                <button id="berhenti">Berhenti</button>
-                <button id="reset">Reset</button>
-            </div>
-        </main>
-    </div>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Pomodoro Timer</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Pomodoro Timer</h1>
+            </header>
+            <main>
+                <div class="input-box">
+                    <p>Masukkan waktu Pomodoro (menit)</p>
+                    <input type="number" id="input-menit" min="1" max="180" placeholder="25">
+                    <button id="simpan">Simpan</button>
+                </div>
+
+                <div class="waktu">
+                    <span class="digit" id="jam">00</span>
+                    <span class="digit" id="menit">00</span>
+                    <span class="digit" id="detik">00</span>
+                </div>
+                <div class="tombol">
+                    <button id="mulai">Mulai</button>
+                    <button id="berhenti">Berhenti</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </main>
+        </div>
+        <script src="./mian.js"></script>
+    </body>
+
+    </html>
